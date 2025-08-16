@@ -1,0 +1,71 @@
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Figtree', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.9rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+        }
+
+        .btn-login {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .btn-login:hover {
+            background-color: #1e40af;
+            transform: translateY(-3px);
+        }
+
+        .btn-register {
+            background-color: #16a34a;
+            color: white;
+        }
+
+        .btn-register:hover {
+            background-color: #15803d;
+            transform: translateY(-3px);
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }

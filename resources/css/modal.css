@@ -1,0 +1,72 @@
+/* Modal overlay customization */
+.modal.fade .modal-dialog {
+    transform: translateY(-30px);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.modal.show .modal-dialog {
+    transform: translateY(0);
+}
+
+/* Modal content */
+.modal-content {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    background: #1e1e2f; /* dark theme */
+    color: #f5f5f5;
+}
+
+/* Modal header */
+.modal-header {
+    border-bottom: none;
+    background: #27293d;
+    border-radius: 12px 12px 0 0;
+    padding: 1rem 1.5rem;
+}
+
+.modal-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.btn-close {
+    filter: invert(1); /* makes close button visible on dark */
+}
+
+/* Modal body */
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-body .form-label {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: #d1d1e0;
+}
+
+.modal-body .form-control-plaintext {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    background: #2a2d3e;
+    color: #f5f5f5;
+}
+
+.modal-body .border {
+    border: 1px solid #444a63 !important;
+}
+
+/* Modal footer */
+.modal-footer {
+    border-top: none;
+    padding: 1rem 1.5rem;
+    background: #27293d;
+    border-radius: 0 0 12px 12px;
+}
+
+/* Buttons */
+
+
+
