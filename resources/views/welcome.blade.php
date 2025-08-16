@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Laravel</h1>
+        <h1>Welcome to Post Manager</h1>
 
         <div class="button-group">
             @if (Route::has('login'))
